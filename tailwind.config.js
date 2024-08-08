@@ -6,7 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'custom-yellow': '#FDF800', 
+        'custom-yellow': '#FDF800',
+      },
+      fontFamily: {
+        'oxanium': ['Oxanium', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
       },
     },
   },
@@ -15,6 +19,5 @@ module.exports = {
     require('postcss-import'),
     require('tailwindcss'),
     require('autoprefixer'),
-]
-}
-
+  ]
+};
