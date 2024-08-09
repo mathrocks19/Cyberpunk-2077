@@ -36,6 +36,9 @@ button:hover::after {
   text-shadow: -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8;
   background-color: transparent;
   border: 3px solid rgb(0, 255, 213);
+  transition: clip-path 1s, transform 1s; /* Transições específicas para o clip-path e transform */
+
+
 }
 
 button:hover {
