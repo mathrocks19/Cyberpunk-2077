@@ -2,16 +2,15 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-news',
+  selector: 'app-landing-page',
   standalone: true,
-  imports: [],
-  templateUrl: './news.component.html',
-  styleUrl: './news.component.css'
+  templateUrl: './landing-page.component.html',
+  styleUrls: ['./landing-page.component.css']
 })
-export class NewsComponent {
+export class LandingPageComponent {
   constructor(private router: Router) {}
 
   navigateToPaginaInicial(): void {
-    this.router.navigate(['/news']);
+    this.router.navigate(['/pagina-inicial']);
   }
 }

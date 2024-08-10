@@ -107,4 +107,23 @@ button:hover {
     transform: translate(0);
   }
 }
+/*  Menu       */
+#menu-toggle:checked ~ #mobile-menu {
+  display: block;
+}
 
+#mobile-menu {
+  display: none;
+}
+
+/* Style for mobile menu */
+#mobile-menu {
+  display: none;
+  position: absolute;
+  top: 4rem; /* Ajuste a distância conforme necessário */
+  left: 0;
+  right: 0;
+  z-index: 10; /* Garante que o menu fique acima de outros elementos, se necessário */
+  background-color: rgba(0, 0, 0, 0.7); /* Ajusta o fundo do menu para combinar com o navbar */
+  border-bottom: 1px solid #333; /* Adiciona uma borda inferior para separação visual */
+}
