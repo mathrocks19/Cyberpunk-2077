@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MeioSiteComponent } from './meio-site.component';
+import { NewsComponent } from './news.component';
 
-describe('MeioSiteComponent', () => {
-  let component: MeioSiteComponent;
-  let fixture: ComponentFixture<MeioSiteComponent>;
+describe('NewsComponent', () => {
+  let component: NewsComponent;
+  let fixture: ComponentFixture<NewsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MeioSiteComponent]
+      imports: [NewsComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(MeioSiteComponent);
+    fixture = TestBed.createComponent(NewsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
