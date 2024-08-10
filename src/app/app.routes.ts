@@ -1,3 +1,4 @@
+// app.routes.ts
 import { Routes } from '@angular/router';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { PaginaInicialComponent } from './components/pagina-inicial/pagina-inicial.component';

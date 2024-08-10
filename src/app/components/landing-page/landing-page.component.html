@@ -1,14 +1,53 @@
-<section class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
-  <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-    <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">We invest in the world’s potential</h1>
-    <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
-    <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-      <button (click)="navigateToPaginaInicial()" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-        Get started
-        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-        </svg>
-      </button>
+<video
+    autoplay muted loop playsinline
+    class="absolute top-0 left-0 w-full h-full object-cover z-[-1] ">
+    <source src="assets/mp4/LPbackground.mp4" type="video/mp4; codecs=av01.0.05M.08">
+    <source src="assets/mp4/LPbackground.mp4" type="video/mp4">
+  </video>
+<section class="bg-center bg-no-repeat   bg-blend-multiply relative z-10 min-h-screen">
+  <div class="px-4 mx-auto max-w-screen-xl  flex flex-col items-center  py-24 lg:py-56  align-middle relative  z-10">
+    <div class="flex flex-col sm:flex-row justify-between mb-10">
+      <div class="flex flex-col">
+        <div class="flex justify-center">
+          <img src="assets/img/Cyberpunk2077.png" class=" text-4xl md:text-5xl lg:text-6xl backdrop-blur-md " alt="Logo Cyberpunk">
+        </div>
+        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+          <button (click)="navigateToPaginaInicial()"
+                  class="relative group w-64 h-14 opacity-90 overflow-hidden rounded-xl bg-black z-10 text-black font-black  border-solid hover:bg-black/60 focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-br-3xl rounded-tl-xl text-sm  py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 font-oxanium px-240 shadow-lg shadow-custom-yellow ">
+              <div class="absolute z-10 -translate-x-44 group-hover:translate-x-[30rem] ease-in transistion-all duration-700 h-full w-44 bg-gradient-to-r from-gray-500 to-white/10 opacity-30 -skew-x-12"></div>
+              <div class="absolute flex items-center justify-center text-white z-[1] opacity-90 rounded-2xl inset-0.5 bg-black ">
+                  Get started
+                  <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                  </svg>
+              </div>
+              <div class="absolute duration-1000 group-hover:animate-spin w-full h-[100px] bg-gradient-to-r from-green-500 to-yellow-500 blur-[30px]"></div>
+          </button>
+        </div>
+      </div>
+      <div class="relative sm:ml-10 h-full flex items-center ">
+        <img src="assets/cards/heromaislosangulo.png" alt="" class="h-96 max-w-full object-cover shadow-b shadow-blue-700 backdrop-blur-sm" >
+      </div>
     </div>
+    <div class="flex flex-row justify-center mb-10 h-48">
+      <div class="group overflow-hidden relative after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:bg-sky-700 after:rounded-full after:blur-xl after:bottom-32 after:right-16 after:w-20 after:h-20 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-20 before:right-16 before:w-20 before:h-20 hover:rotate-12 flex justify-center items-center h-full w-104 bg-neutral-900 rounded-2xl outline shadow-2xl shadow-cyan-400/50  mx-2 mb-4">
+        <img src="assets/cards/card1.png" alt="Foto da notícia" class="w-full h-full object-cover rounded-2xl">
+        <div class="z-10 flex flex-col items-center gap-2"></div>
+      </div>
+      <div class="group overflow-hidden relative after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:bg-sky-700 after:rounded-full after:blur-xl after:bottom-32 after:right-16 after:w-20 after:h-20 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-20 before:right-16 before:w-20 before:h-20 hover:rotate-12 flex justify-center items-center h-full w-104 bg-neutral-900 rounded-2xl outline shadow-2xl shadow-cyan-400/50  mx-2 mb-4">
+        <img src="assets/cards/card1.png" alt="Foto da notícia" class="w-full h-full object-cover rounded-2xl">
+        <div class="z-10 flex flex-col items-center gap-2"></div>
+      </div>
+      <div class="group overflow-hidden relative after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:bg-sky-700 after:rounded-full after:blur-xl after:bottom-32 after:right-16 after:w-20 after:h-20 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-20 before:right-16 before:w-20 before:h-20 hover:rotate-12 flex justify-center items-center h-full w-104 bg-neutral-900 rounded-2xl outline shadow-2xl shadow-cyan-400/50  mx-2 mb-4">
+        <img src="assets/cards/card1.png" alt="Foto da notícia" class="w-full h-full object-cover rounded-2xl">
+        <div class="z-10 flex flex-col items-center gap-2"></div>
+      </div>
+      <div class="group overflow-hidden relative after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:bg-sky-700 after:rounded-full after:blur-xl after:bottom-32 after:right-16 after:w-20 after:h-20 before:absolute before:bg-sky-400 before:rounded-full before:blur-xl before:top-20 before:right-16 before:w-20 before:h-20 hover:rotate-12 flex justify-center items-center h-full w-104 bg-neutral-900 rounded-2xl outline shadow-2xl shadow-cyan-400/50  mx-2 mb-4">
+        <img src="assets/cards/card1.png" alt="Foto da notícia" class="w-full h-full object-cover rounded-2xl">
+        <div class="z-10 flex flex-col items-center gap-2"></div>
+      </div>
+    </div>
+
   </div>
 </section>
