@@ -1,4 +1,4 @@
-<nav class="bg-black/80 dark:bg-gray-900 w-full z-20 top-0 start-0 border-b border-custom-yellow dark:border-gray-600 fixed mt-0.5 ">
+<nav class="bg-black/80 dark:bg-gray-900 w-full z-20 top-0 start-0 border-b border-custom-yellow dark:border-gray-600 fixed">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a (click)="scrollToTop()" class="flex items-center">
       <img src="assets/logos/Cyberpunk2077.png" class="h-13 w-48" alt="logo cyberpunk">
@@ -26,15 +26,12 @@
         <li>
           <a [routerLink]="['/pagina-inicial']" routerLinkActive="active" class="relative py-1 text-white cursor-default whitespace-nowrap before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1 before:bg-custom-yellow before:transition-all before:duration-300 before:ease-in-out hover:before:w-full hover:text-custom-yellow" aria-current="page">Home</a>
         </li>
-
-
         <li>
           <a [routerLink]="['/news']" routerLinkActive="active" class="relative py-1 text-white cursor-default whitespace-nowrap before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1 before:bg-custom-yellow before:transition-all before:duration-300 before:ease-in-out hover:before:w-full hover:text-custom-yellow" aria-current="page">News</a>
-          </li>
-        <li>
-        <a [routerLink]="['/personagens']" routerLinkActive="active" class="relative py-1 text-white cursor-default whitespace-nowrap before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1 before:bg-custom-yellow before:transition-all before:duration-300 before:ease-in-out hover:before:w-full hover:text-custom-yellow" aria-current="page">Personagens</a>
         </li>
-
+        <li>
+          <a [routerLink]="['/personagens']" routerLinkActive="active" class="relative py-1 text-white cursor-default whitespace-nowrap before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1 before:bg-custom-yellow before:transition-all before:duration-300 before:ease-in-out hover:before:w-full hover:text-custom-yellow" aria-current="page">Personagens</a>
+        </li>
         <li>
           <a routerLink="/a" class="relative py-1 text-white cursor-default whitespace-nowrap before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1 before:bg-custom-yellow before:transition-all before:duration-300 before:ease-in-out hover:before:w-full hover:text-custom-yellow" aria-current="page">Posters</a>
         </li>
@@ -57,3 +54,7 @@
     </div>
   </div>
 </nav>
+
+
+<div class="pt-20">
+
