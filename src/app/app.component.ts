@@ -6,13 +6,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NewsComponent } from './components/news/news.component';
 import { initFlowbite } from 'flowbite/lib/esm/components';
 import { FooterComponent } from "./components/footer/footer.component";
-import { DefaultfooterComponent } from "./defaultfooter/defaultfooter.component";
 import { DefaulfooterComponent } from "./components/defaulfooter/defaulfooter.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule, NavbarComponent, FooterComponent, DefaultfooterComponent, DefaulfooterComponent],
+  imports: [RouterModule, NavbarComponent, FooterComponent, DefaulfooterComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
@@ -22,4 +21,6 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     initFlowbite();
   }
+
+  
 }
