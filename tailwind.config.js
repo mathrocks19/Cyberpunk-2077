@@ -11,10 +11,11 @@ module.exports = {
       },
       fontFamily: {
         // Adicione suas fontes aqui
-        'barlow': ['Barlow', 'sans-serif'], // Barlow
-        'exo2': ['Exo 2', 'sans-serif'], // Exo 2
-        'oxanium': ['Oxanium', 'sans-serif'], // Oxanium
-        'roboto': ['Roboto', 'sans-serif'], // Roboto
+        'barlow': ['Barlow', 'sans-serif'],
+        'exo2': ['Exo 2', 'sans-serif'], 
+        'oxanium': ['Oxanium', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+        'orbitron': ['Orbitron', 'sans-serif'],
       },
       screens: {
         'tablet': '640px',
