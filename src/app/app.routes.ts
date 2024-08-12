@@ -13,4 +13,5 @@ export const routes: Routes = [
   { path: 'meio-site', component: MeioSiteComponent },
   { path: 'news', component: NewsComponent },
   { path: 'personagens', component: PersonagensComponent},
+  
 ];

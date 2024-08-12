@@ -9,6 +9,9 @@ import { RouterModule } from '@angular/router';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
+
+  
+
   scrollToTop() {
     window.scrollTo({
       top: 0,
