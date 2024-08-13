@@ -1,21 +1,26 @@
 <section class="dark:bg-gray-900 relative">
-  <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-[-1] opacity-90">
+  <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-10 opacity-95 md:hidden ">
+    <source src="assets/mp4/videocyberpunkmobile.mp4" type="video/mp4; codecs=av01.0.05M.08">
+    <source src="assets/mp4/videocyberpunkmobile.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-95 md:block">
     <source src="assets/mp4/cyberpunk.mp4" type="video/mp4; codecs=av01.0.05M.08">
     <source src="assets/mp4/cyberpunk.mp4" type="video/mp4">
   </video>
+
   <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 flex flex-col lg:flex-row items-center lg:items-start z-10 mb-24">
-    <div class="lg:w-1/2 mb-8 lg:mb-16 text-left">
-      <h2 class="mb-2 text-4xl sm:text-6xl tracking-tight font-orbitron font-extrabold text-black dark:text-white italic">
+    <div class="lg:w-1/2 mb-8 lg:mb-16 text-left z-20">  <!-- Adicionado z-20 -->
+      <h2 class="mb-2 text-4xl sm:text-6xl tracking-tight font-orbitron font-extrabold text-black dark:text-white italic filter ">
         Vivencie a experiência definitiva de Cyberpunk <span class="text-pink-700 ">2077</span>
-      </h2>
+    </h2>
       <p class="mb-4 mt-9 tracking-tight font-oxanium font-extrabold text-black">Mergulhe no universo de Cyberpunk,
         desde o enredo original de Cyberpunk 2077 e sua emocionante expansão de suspense e espionagem Phantom Liberty
         até a premiada série de anime Cyberpunk:</p>
-      <div class="flex flex-wrap justify-start space-y-4 flex-col md:flex-row sm:flex-row sm:justify-start sm:space-y-0 gap-6 mb-5 mt-10">
-
+      <div class="flex flex-col sm:flex-row flex-wrap justify-start space-y-4  sm:space-y-0 gap-6 mb-5 mt-10">
         <a href="https://www.youtube.com/watch?v=liuFhVXAlZw" target="_blank" rel="noopener noreferrer">
           <button
-            class="relative inline-flex h-12 sm:h-14 md:h-16 active:scale-95 transition overflow-hidden rounded-lg p-[5px] focus:outline-none w-52 sm:w-64 md:w-72 lg:w-80"> <!-- Ajuste as classes de largura para cada breakpoint -->
+            class="relative inline-flex h-12 sm:h-14 md:h-16 active:scale-95 transition overflow-hidden rounded-lg p-[5px] focus:outline-none w-52 sm:w-64 md:w-72 lg:w-80 lg:block ">
             <span
               class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#e7029a_0%,#f472b6_40%,#00F0FF_80%,#bd5fff_100%)]">
             </span>
@@ -32,10 +37,8 @@
           </button>
         </a>
       </div>
-
-      
     </div>
-    <div class="lg:w-1/2 lg:ml-8 lg:order-2 relative z-20">
+    <div class="lg:w-1/2 lg:ml-8 lg:order-2 relative z-10">  <!-- Adicionado z-10 -->
       <div class="smoke-animation absolute inset-0 z-[-1] w-full h-full"></div>
     </div>
   </div>
