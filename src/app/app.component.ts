@@ -6,12 +6,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NewsComponent } from './components/news/news.component';
 import { initFlowbite } from 'flowbite/lib/esm/components';
 import { FooterComponent } from "./components/footer/footer.component";
-import { DefaulfooterComponent } from "./components/defaulfooter/defaulfooter.component";
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule, NavbarComponent, FooterComponent, DefaulfooterComponent],
+  imports: [RouterModule, NavbarComponent, NewsComponent, MeioSiteComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
@@ -22,5 +22,5 @@ export class AppComponent implements OnInit {
     initFlowbite();
   }
 
-  
+
 }

@@ -12,21 +12,28 @@ module.exports = {
       fontFamily: {
         // Adicione suas fontes aqui
         'barlow': ['Barlow', 'sans-serif'],
-        'exo2': ['Exo 2', 'sans-serif'], 
+        'exo2': ['Exo 2', 'sans-serif'],
         'oxanium': ['Oxanium', 'sans-serif'],
         'roboto': ['Roboto', 'sans-serif'],
         'orbitron': ['Orbitron', 'sans-serif'],
       },
       screens: {
-        'tablet': '640px',
+        'sm': '640px',
         // => @media (min-width: 640px) { ... }
+        'sm': '670px',
+        // => @media (min-width: 670px) { ... }
+        'md': '768px',
+        // => @media (min-width: 768px) { ... }
 
-        'laptop': '1024px',
+        'lg': '1024px',
         // => @media (min-width: 1024px) { ... }
 
-        'desktop': '1280px',
+        'xl': '1280px',
         // => @media (min-width: 1280px) { ... }
-      },
+
+        '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... }
+      }
     },
   },
   plugins: [
